@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#img{
+  
+    margin-top: 15%;
+    margin-left: 45%;
+
+}
+#btn{
+    height: 50px;
+    width: 10%;
+    font-size: 20px;
+    border-radius: 9px;
+    font-weight: 500;
+    margin-left: 43%;
+
+    background: rgb(221, 58, 58);
+}
+#span{
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 43%;
+}
+#sum{
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 43%;
+    margin-top: 35px !important;
+}

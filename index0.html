@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Dies Game</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  
+  
+</head>
+<style type="text/css">
+button {
+width: 80%;
+height: 40px;
+background-color: lightgrey;
+font-weight: bold;
+font-size: 20px;
+}
+button:hover{
+border: 2px inset black;
+}
+</style>
+<body>
+<center><img id="img" src="https://static.wikia.nocookie.net/0e4e9d66-20c5-46a6-91ed-f150002fc103/scale-to-width/755" width="200px" height="200px">
+<br><button onClick="roll()">ROLL</button>
+<br>
+<br>
+
+<script type="text/javascript">
+
+
+function roll() {
+document.getElementById("img").setAttribute("src", "rolling.gif")
+setTimeout(f2, 3000);
+
+}
+function f2() {
+r = Math.floor(Math.random()*6) + 1;
+
+img = `dice${r}.png`
+
+document.getElementById("img").setAttribute("src", img);
+
+
+}
+</script>
+
+</center></body></html></DOCTYPE>

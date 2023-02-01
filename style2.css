@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#para{
+    font-size: 30px;
+    margin-top: 20%;
+    margin-left: 30%;
+    padding-left: 50px;
+}
